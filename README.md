@@ -3,7 +3,7 @@ This repo contains codes for Flask app.
 
 Requirement : a keras model file named - best_model-weights.hdf5
 Classes are mentioned in the app.py file. These classes belong to
-to Pant Village dataset
+to <b>Pant Village dataset</b>
 
 My flask app for the same is hosted on Heroku .
 
