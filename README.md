@@ -7,7 +7,7 @@ to Pant Village dataset
 
 My flask app for the same is hosted on Heroku .
 
-API - https://plant-disease-classification.herokuapp.com/
+API - <i>https://plant-disease-classification.herokuapp.com/</i>
 
 * '/predict/' accepts image file and sends back a
 json file with classes as key and resp. probability as value.
