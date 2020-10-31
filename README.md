@@ -1,6 +1,4 @@
-# PDC-API
-This repo contains codes for Flask app.
-
+# Plant Disease Classification - API - Flask App
 Requirement : a keras model file named - best_model-weights.hdf5
 Classes are mentioned in the app.py file. These classes belong to
 to <b>Pant Village dataset</b>
