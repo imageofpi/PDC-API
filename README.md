@@ -9,3 +9,6 @@ API - <i>https://plant-disease-classification.herokuapp.com/</i>
 
 * '/predict/' accepts image file and sends back a
 json file with classes as key and resp. probability as value.
+
+Command to run : >>> python app.py<br/>
+  App will be hosted on Localhost - http://127.0.0.1:5000/
