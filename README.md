@@ -1,6 +1,6 @@
 # Plant Disease Classification - API - Flask App
 Classes are mentioned in the app.py file. <br/> These classes belong to
-the <b>Pant Village dataset</b>
+the <b>Plant Village dataset</b>
 
 My flask app for the same is hosted on Heroku .
 
