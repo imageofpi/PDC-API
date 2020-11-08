@@ -52,7 +52,6 @@ def post_prediction():
     #image fetching and preparation for prediction
     if request.files['image'].filename == '':
         return {'Error':'No selected file'}
-    return jsonify({'result':'hello'})
     img = Image.open(request.files['image']).convert('RGB')
     img = img.resize((224,224),Image.ANTIALIAS)
     img = np.array(img)
