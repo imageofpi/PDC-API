@@ -67,9 +67,8 @@ def post_prediction():
     interpreter.set_tensor(input_tensor_index, img)
     interpreter.invoke()
     predictions = output()[0]
-
-    results = {classes[indx] : str(predictions[indx])  for indx in range(predictions.shape[0])}
-    return jsonify(predictions=results)
+    indx = predictions.argmax(axis=0)
+    return jsonify({'class':classes[indx]})
 
 # A welcome message to test our server
 @app.route('/' , methods=['POST','GET'])
